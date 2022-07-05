@@ -10,6 +10,7 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .divclass {
@@ -34,4 +35,19 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dwnldbttn {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 8px 30px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
 }
